@@ -7,7 +7,7 @@ contract Store {
     value = newNum;
   };
 
-  function get()public view returns (uint){
+  function get() public view returns (uint){
     return value;
   };
 }
