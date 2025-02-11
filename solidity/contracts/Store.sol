@@ -2,7 +2,7 @@
 pragma solidity >0.8.17;
 
 contract Store {
-  uint value;
+  uint private value;
   function set(uint newNum)public {
     value = newNum;
   };
